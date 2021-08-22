@@ -1,0 +1,21 @@
+.page-body {
+  padding: 2rem 2rem 20px;
+}
+.blog-list {
+  width: 800px;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* for mobile */
+.m-page-body {
+  padding: 0 0.3rem 0.3rem;
+  background-color: #f5f7f8;
+}
+.m-blog-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
