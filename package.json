@@ -1,12 +1,15 @@
 {
-  "name": "gatsby-blog",
+  "name": "blog-space",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
-  "version": "0.1.0",
+  "description": "Ushio's Blog",
+  "version": "0.1.1",
   "license": "0BSD",
+  "keywords": [
+    "gatsby"
+  ],
   "scripts": {
     "deploy": "gatsby build && gh-pages -d public -b master",
-    "build": "gatsby build --prefix-paths",
+    "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
@@ -40,9 +43,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "git+https://github.com/kuran-ushio/kuran-ushio.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/kuran-ushio/kuran-ushio.github.io/issues"
   }
 }
