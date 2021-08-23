@@ -6,7 +6,6 @@
 
 module.exports = {
   /* Your site config here */
-  pathPrefix: '/daily-blog',
   siteMetadata: {
     title: 'My Space',
     description: 'My space of coding journey'
