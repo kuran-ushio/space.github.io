@@ -1,0 +1,2 @@
+(self.webpackChunkgatsby_blog=self.webpackChunkgatsby_blog||[]).push([[883],{5616:function(e,a,n){"use strict";n.r(a),n.d(a,{default:function(){return l}});var t=n(7294);var l=function(){return t.createElement("div",{className:"_404-module--page404--3JmGV"},t.createElement("span",null,"404"),t.createElement("i",{className:"_404-module--divider--207DY"}),t.createElement("span",null,"PAGE NOT FOUND"))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-e7fd4076c7e60aefa906.js.map
