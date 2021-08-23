@@ -2,7 +2,7 @@
   "name": "blog-space",
   "private": true,
   "description": "Ushio's Blog",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "0BSD",
   "keywords": [
     "gatsby"
