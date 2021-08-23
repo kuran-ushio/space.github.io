@@ -2,15 +2,21 @@ exports.formatMaxCount = function (n) {
   return n > 999 ? '999+' : n + ''
 }
 
+const isBrowser = () => typeof window !== 'undefined'
+
 exports.checkMobileDevice = function () {
-  var sUserAgent = navigator.userAgent.toLowerCase()
+  if (!isBrowser()) return;
+
+  var sUserAgent = window.navigator.userAgent.toLowerCase()
   return sUserAgent.match(
     /(ipad|ipod|iphone os|midp|ucweb|android|windows ce|windows mobile)/i
   )
 }
 
 exports.fixDeviceView = function () {
-  var sUserAgent = navigator.userAgent.toLowerCase()
+  if (!isBrowser()) return;
+
+  var sUserAgent = window.navigator.userAgent.toLowerCase()
   var pathname
   if (window.location.pathname === '/') {
     pathname = ''

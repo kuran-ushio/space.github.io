@@ -24,18 +24,6 @@ export const LineNo = styled.span`
   opacity: 0.3;
 `
 
-const CopyCode = styled.button`
-  position: absolute;
-  right: 0.25rem;
-  border: 0;
-  border-radius: 3px;
-  margin: 0.25em;
-  opacity: 0.3;
-  &:hover {
-    opacity: 1;
-  }
-`
-
 const Code = ({ codeString, language }) => {
   return (
     <Highlight
