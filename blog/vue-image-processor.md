@@ -7,11 +7,17 @@ tag: 'vue'
 cover: 'vue-image-processor.png'
 ---
 
-### 图片处理
 
-#### 色彩调整
 
-##### 实现思路
+### 相关依赖
+
+- [caman.js](https://github.com/meltingice/CamanJS) 
+- [cropper.js](https://github.com/fengyuanchen/cropperjs) 
+- [wx-caman](https://github.com/ChrisCindy/wx-caman) 
+
+<br/>
+
+### 色彩调整
 
 通常的实现思路就是通过 canvas 去操作图片每个像素点，对每个像素点的色彩值 rgba 进行处理。
 
@@ -78,7 +84,7 @@ canvasRef.value.caman.brightness(brightness.value)
 
 <br/>
 
-##### 实现效果
+实现效果如下：
 
 亮度
 
@@ -146,11 +152,11 @@ canvasRef.value.caman.brightness(brightness.value)
 
 <br/>
 
-#### 尺寸处理
+### 尺寸处理
 
 包括旋转、镜像、裁剪等操作。
 
-##### 旋转
+#### 旋转
 
 通过 canvas 坐标系旋转变换，然后再重新绘制图片实现。
 
@@ -158,7 +164,7 @@ canvasRef.value.caman.brightness(brightness.value)
 
 <br/>
 
-##### 镜像
+#### 镜像
 
 通过操作 canvas 中的像素点，对称的像素点互换位置。
 
@@ -166,7 +172,7 @@ canvasRef.value.caman.brightness(brightness.value)
 
 <br/>
 
-##### 裁剪
+#### 裁剪
 
 基于 `cropper.js` 实现。
 
