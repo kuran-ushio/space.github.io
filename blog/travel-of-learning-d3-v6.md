@@ -13,7 +13,7 @@ tag: "d3"
 - D3.js官网 [https://d3js.org](https://d3js.org) 
 - D3.js实例 [https://observablehq.com/@d3](https://observablehq.com/@d3) 
 
-
+<br/>
 
 ### 散点图
 
@@ -25,7 +25,7 @@ tag: "d3"
 
 3. 鼠标的交互需要对这些散点添加 `mouseenter` 和 `mouseleave` 事件，事件触发时改变 `circle` 元素的半径 `r` 
 
-
+<br/>
 
 #### 基础散点图
 
@@ -186,13 +186,13 @@ function ScatterSimple(props) {
 export default ScatterSimple;
 ```
 
-
+<br/>
 
 #### Anscombe's quartet
 
 ![d3-scatter-anscombe-quartet.gif](/images/d3-scatter-anscombe-quartet.gif)
 
-
+<br/>
 
 #### 数据聚合
 
@@ -556,7 +556,7 @@ function ScatterClustering(props) {
 export default ScatterClustering;
 ```
 
-
+<br/>
 
 #### 涟漪特效散点图
 
@@ -564,7 +564,7 @@ export default ScatterClustering;
 
 动画效果基于 css3 实现
 
-
+<br/>
 
 ### 柱状图
 
@@ -573,7 +573,7 @@ export default ScatterClustering;
 1. x、y轴的比例尺根据需求选择。类目轴使用 `scaleBand` ，数值轴使用 `scaleLinear` 
 2. 条形使用 `<rect>` 
 
-
+<br/>
 
 #### 基础柱状图
 
@@ -764,31 +764,31 @@ function BarSimple(props) {
 export default BarSimple;
 ```
 
-
+<br/>
 
 #### 带背景色的柱状图
 
 ![d3-bar-background.gif](/images/d3-bar-background.gif)
 
-
+<br/>
 
 #### 坐标轴刻度与标签对齐
 
 ![d3-tick-align.gif](/images/d3-tick-align.gif)
 
-
+<br/>
 
 #### 横向的条形图
 
 ![d3-bar-y-category.gif](/images/d3-bar-y-category.gif)
 
-
+<br/>
 
 #### 数据集
 
 ![d3-bar-dataset-simple.gif](/images/d3-bar-dataset-simple.gif)
 
-
+<br/>
 
 ### 折线图
 
@@ -1046,13 +1046,13 @@ function LineSimple(props) {
 export default LineSimple;
 ```
 
-
+<br/>
 
 #### 基础平滑折线图
 
 ![d3-line-smooth.gif](/images/d3-line-smooth.gif)
 
-
+<br/>
 
 #### 基础面积图
 
