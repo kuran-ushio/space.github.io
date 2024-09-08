@@ -1,3 +1,13 @@
+---
+slug: "/blog/hls-m3u8"
+title: "HLS流媒体 m3u8视频播放"
+date: "2022-08-30 19:17:35"
+brief: "在工作中遇到了需要播放实时监控视频的需求，第一次接触，于是记录下来。"
+tag: "h5"
+---
+
+
+
 ## 概念简介
 
 ### HLS (HTTP Live Streaming)
