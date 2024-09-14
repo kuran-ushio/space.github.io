@@ -178,6 +178,9 @@ body {
 .icon-vant {
   background-image: url('../assets/icon-vant.png');
 }
+.icon-nodejs {
+  background-image: url('../assets/icon-nodejs.svg');
+}
 
 .icon-client {
   display: block;
